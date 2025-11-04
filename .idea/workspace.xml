@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7bcf20a-b92f-4bda-9383-606c8fdcc7cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fitness-planner-dbtest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness.db" beforeDir="false" afterPath="$PROJECT_DIR$/fitness.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SessionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SessionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Workout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Workout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkoutDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkoutDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SessionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SessionDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Workout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Workout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WorkoutDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkoutDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/fitness-planner-dbtest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="e7bcf20a-b92f-4bda-9383-606c8fdcc7cd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +113,7 @@
       <workItem from="1762250744607" duration="2336000" />
       <workItem from="1762253619567" duration="1009000" />
       <workItem from="1762254647903" duration="362000" />
-      <workItem from="1762255022465" duration="2070000" />
+      <workItem from="1762255022465" duration="2387000" />
     </task>
     <servers />
   </component>
