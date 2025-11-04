@@ -1,9 +1,11 @@
 
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+
+
 
 public class SessionDao {
     private static final String URL = "jdbc:sqlite:fitness.db";
