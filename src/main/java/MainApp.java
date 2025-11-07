@@ -17,6 +17,7 @@ import javafx.stage.Stage;
  * - The “20251103” comments below were left by teammates to mark Sprint 3 work.
  *   I left those intact and added my own comments around them so it’s clear what I changed.
  */
+
 public class MainApp extends Application {
 
     // I keep a reference to the timer tab’s root so I can shut it down in stop().
@@ -24,6 +25,7 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) {
+
         // Tab container for the whole app. This matches the design we already have.
         TabPane tabs = new TabPane();
 
@@ -45,24 +47,26 @@ public class MainApp extends Application {
         Tab t3 = new Tab("Equipment", equipmentView.getRoot());
         t3.setClosable(false);
 
-        // My addition: Timer tab.
-        // Reasoning: The workout timer is part of our MVP. Putting it in the same TabPane
+        // 20251106💥 My addition: Timer tab (Sprint 5 Final)
+        // The workout timer is part of our MVP. Putting it in the same TabPane
         // keeps the UX consistent and avoids extra windows.
         timerPane = new TimerPane();                         // Tab 4 content
         Tab t4 = new Tab("Timer", timerPane);                // TimerPane is a Node (VBox)
         t4.setClosable(false);
 
-        // 20251103 Added Equipment tab to the list
-        // I’m appending mine right after it so we end up with: Profiles | Exercises | Equipment | Timer
+        // 20251106💥 Added Timer tab to the list after Equipment.
         tabs.getTabs().addAll(t1, t2, t3, t4);
 
         // When profiles change, refresh the Exercises profile list
         // (This coupling was already part of our UI flow and I’m keeping it.)
         profilesView.setOnAnyProfileChange(exercisesView::reloadProfiles);
 
-        // Window title and initial size. The width comfortably fits the table-based tabs and the timer.
-        stage.setTitle("Fitness Planner – Sprint 3 GUI");
-        stage.setScene(new Scene(tabs, 900, 520));
+        // 20251106💥 Added CSS styling and updated title for final demo.
+        Scene scene = new Scene(tabs, 900, 520);
+        scene.getStylesheets().add(getClass().getResource("/app.css").toExternalForm());
+
+        stage.setTitle("Fitness Planner – Sprint 5 GUI");
+        stage.setScene(scene);
         stage.show();
 
         // Initial load for each view so the tables/spinners have data right away.
@@ -79,7 +83,7 @@ public class MainApp extends Application {
     public void stop() throws Exception {
         super.stop();
         // Important: stop background threads before exit to prevent the app from hanging.
-        // If the timer exists, ask it to shut down its scheduler thread.
+        // 20251106💥 Added shutdown call for TimerService to close thread safely.
         if (timerPane != null) {
             timerPane.shutdown();
         }
